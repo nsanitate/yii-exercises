@@ -1,0 +1,31 @@
+2010/05/16 22:18:50 [error] [system.db.CDbCommand] Error in querying SQL: SHOW COLUMNS FROM `project`
+in /Webroot/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Webroot/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Webroot/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/05/18 15:33:08 [error] [system.db.CDbCommand] Error in querying SQL: SHOW COLUMNS FROM `project`
+in /Webroot/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (122)
+in /Webroot/Yii-1.1.2/framework/gii/generators/model/ModelCode.php (98)
+in /Webroot/Yii-1.1.2/framework/gii/CCodeGenerator.php (155)
+2010/05/25 22:20:31 [warning] [application] Failed to set unsafe attribute "description".
+in /Webroot/trackstar/protected/controllers/ProjectController.php (75)
+in /Webroot/trackstar/index.php (12)
+2010/05/25 22:57:01 [warning] [application] Failed to set unsafe attribute "description".
+in /Webroot/trackstar/protected/controllers/ProjectController.php (75)
+in /Webroot/trackstar/index.php (12)
+2010/05/25 23:33:11 [warning] [application] Failed to set unsafe attribute "description".
+in /Webroot/trackstar/protected/controllers/ProjectController.php (75)
+in /Webroot/trackstar/index.php (12)
+2010/05/26 00:15:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Webroot/Yii-1.1.2/framework/web/auth/CAccessControlFilter.php:153
+Stack trace:
+#0 /Webroot/Yii-1.1.2/framework/web/auth/CAccessControlFilter.php(115): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Webroot/Yii-1.1.2/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Webroot/Yii-1.1.2/framework/web/CController.php(999): CFilter->filter(Object(CFilterChain))
+#3 /Webroot/Yii-1.1.2/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Webroot/Yii-1.1.2/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#5 /Webroot/Yii-1.1.2/framework/web/CController.php(283): CFilterChain->run()
+#6 /Webroot/Yii-1.1.2/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Webroot/Yii-1.1.2/framework/web/CWebApplication.php(320): CController->run('admin')
+#8 /Webroot/Yii-1.1.2/framework/web/CWebApplication.php(120): CWebApplication->runController('project/admin')
+#9 /Webroot/Yii-1.1.2/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#10 /Webroot/trackstar/index.php(12): CApplication->run()
+#11 {main} REQUEST_URI=/trackstar/index.php?r=project/admin

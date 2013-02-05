@@ -1,0 +1,3 @@
+<h2 style="color:red">
+Access denied.
+</h2>
